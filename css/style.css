@@ -1,0 +1,42 @@
+
+body ,html{
+    background: url('../images/woodlandsCoffee.jpeg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    width:100%;
+    height: 100vh;
+}
+.glass{
+    /*background: linear-gradient(135deg, rgba(58, 30, 30, 0.253),rgba(53, 29, 29, 0.226));*/
+    background: linear-gradient(135deg, rgba(58, 30, 30, 0.349),rgba(63, 31, 31, 0.103));
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(1px);
+    border-radius: 5px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 4px 32px 0 rgba(0,0,0,0.37);
+}
+.glassDark{
+    background: linear-gradient(135deg, rgba(58, 30, 30, 0.123),rgba(63, 31, 31, 0.425));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(1px);
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-bottom: 5px solid rgb(138, 14, 14);
+    box-shadow: 0 5px 32px 0 rgba(0,0,0,0.37);
+    height: 120px;
+}
+.logo-text{
+    font-family: font-face, "Lucida Grande", Myria, Helvetica Neue Light, Helvetica Neue, Helvetica, Century Schoolbook, Arial, Verdana, sans-serif;
+    color: rgb(182, 18, 18);
+    font-size: 48px;
+    letter-spacing:2px;
+    text-align:center;
+    text-shadow:2px 2px 4px rgb(24, 24, 24);
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.mainMessage{
+    color: white;
+}
